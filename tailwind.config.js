@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        display: "Calibri",
+        Abhaya: "Abhaya Libre",
+        Inter: "Inter", // Adds a new `font-display` class
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
